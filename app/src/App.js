@@ -1,6 +1,9 @@
 import React from "react";
 import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
 import Colors from "./pages/colors";
+import { ColorForm } from "./pages/colors/form";
+
+alert(JSON.stringify(ColorForm));
 
 const Menu = props => {
   return (
@@ -33,7 +36,8 @@ const App = props => {
       <div>
         <Switch>
           <Route exact path="/" component={Menu} />
-          <Route path="/colors" component={Colors} />
+          <Route exact path="/colors" component={Colors} />
+          <Route exact path="colors/new" component={ColorForm} />
         </Switch>
       </div>
     </BrowserRouter>

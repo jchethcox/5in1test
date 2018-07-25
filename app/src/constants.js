@@ -1,1 +1,2 @@
 export const SET_COLORS = "SET_COLORS";
+export const CHG_CURRENT_COLOR = "CHG_CURRENT_COLOR";
