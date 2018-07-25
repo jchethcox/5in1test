@@ -1,9 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
 import Colors from "./pages/colors";
-import { ColorForm } from "./pages/colors/form";
-
-alert(JSON.stringify(ColorForm));
+import ColorForm from "./pages/colors/form";
 
 const Menu = props => {
   return (

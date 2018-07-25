@@ -1,5 +1,4 @@
 import React from "react";
-import From from "../../components/form";
 import { connect } from "react-redux";
 import { addColor, chgColor } from "../../action-creators/colors";
 import Form from "../../components/form";
